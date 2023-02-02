@@ -9,9 +9,9 @@ define('DB_HOST', getenv('DB_HOST') ? getenv('DB_HOST') : APP_DB_HOST);
 define('DB_NAME', getenv('DB_NAME') ? getenv('DB_NAME') : APP_DB_NAME);
 
 //VIew
-define('APP_VIEW_PATH', __DIR__ . '/../src/View/');
+const APP_VIEW_PATH = __DIR__ . '/../src/View/';
 
-define('HOME_PAGE', 'home/index');
+const HOME_PAGE = 'home/index';
 
 // database dump file path for automatic import
-define('DB_DUMP_PATH', __DIR__ . '/../database.sql');
+const DB_DUMP_PATH = __DIR__ . '/../database.sql';
